@@ -5,9 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Exercícios Sequênciais", "01 - Exercícios Sequênciais", "{75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosSequencias.01", "src\Academia.Dotnet.ExerciciosSequencias.01\Academia.Dotnet.ExerciciosSequencias.01.csproj", "{293459AB-36F0-42A8-8B73-F9E034A891B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosSequencias.01", "src\Academia.Dotnet.ExerciciosSequencias.01\Academia.Dotnet.ExerciciosSequencias.01.csproj", "{293459AB-36F0-42A8-8B73-F9E034A891B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosSequencias.02", "src\Academia.Dotnet.ExerciciosSequencias.02\Academia.Dotnet.ExerciciosSequencias.02.csproj", "{4F03B700-0749-4C74-B42D-248C230DAF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosSequencias.02", "src\Academia.Dotnet.ExerciciosSequencias.02\Academia.Dotnet.ExerciciosSequencias.02.csproj", "{4F03B700-0749-4C74-B42D-248C230DAF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosSequencias.03", "src\Academia.Dotnet.ExerciciosSequencias.03\Academia.Dotnet.ExerciciosSequencias.03.csproj", "{4F3D456E-2C7B-4F4C-852A-679FCCF8E896}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{4F03B700-0749-4C74-B42D-248C230DAF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F03B700-0749-4C74-B42D-248C230DAF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F03B700-0749-4C74-B42D-248C230DAF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3D456E-2C7B-4F4C-852A-679FCCF8E896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3D456E-2C7B-4F4C-852A-679FCCF8E896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3D456E-2C7B-4F4C-852A-679FCCF8E896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3D456E-2C7B-4F4C-852A-679FCCF8E896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{293459AB-36F0-42A8-8B73-F9E034A891B2} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
 		{4F03B700-0749-4C74-B42D-248C230DAF77} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
+		{4F3D456E-2C7B-4F4C-852A-679FCCF8E896} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
