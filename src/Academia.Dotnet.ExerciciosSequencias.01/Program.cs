@@ -24,8 +24,8 @@
     
     private static int CalcularMediaAritmeticaDoisNumeros(int valor1, int valor2) 
     {
-        int resultado = (valor1 + valor2) / 2;
-        return resultado;
+        int media = (valor1 + valor2) / 2;
+        return media;
     }
 
 }
