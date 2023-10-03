@@ -2,11 +2,11 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("***** Média Aritmética *****");
-
         /*
          * 1) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.
         */
+
+        Console.WriteLine("***** Média Aritmética *****");
 
         Console.Write("Informe o primeiro valor: ");
         int valor1 = int.Parse(Console.ReadLine());
