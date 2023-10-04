@@ -21,8 +21,8 @@
         Console.ReadKey();
     }
 
-    
-    private static int CalcularMediaAritmeticaDoisNumeros(int valor1, int valor2) 
+
+    private static int CalcularMediaAritmeticaDoisNumeros(int valor1, int valor2)
     {
         int media = (valor1 + valor2) / 2;
         return media;

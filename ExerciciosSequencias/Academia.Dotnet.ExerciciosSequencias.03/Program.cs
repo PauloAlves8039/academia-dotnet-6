@@ -24,7 +24,7 @@
         Console.ReadKey();
     }
 
-    private static int TrocaDeValores(int numero1, int numero2) 
+    private static int TrocaDeValores(int numero1, int numero2)
     {
         int A = numero1;
         int B = numero2;

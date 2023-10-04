@@ -3,9 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Academia.Dotnet.ExerciciosSequencias._04</RootNamespace>
+    <RootNamespace>Academia.Dotnet.ExerciciosSequencias._02</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
+	 <Nullable>disable</Nullable>
   </PropertyGroup>
 
 </Project>

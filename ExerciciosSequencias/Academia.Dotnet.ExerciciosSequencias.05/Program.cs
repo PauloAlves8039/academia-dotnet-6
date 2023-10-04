@@ -28,7 +28,7 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static double CalculandoConsumoDeCombustivel(double distancia, double volume) 
+    private static double CalculandoConsumoDeCombustivel(double distancia, double volume)
     {
         double consumoMedio = distancia / volume;
         return consumoMedio;
