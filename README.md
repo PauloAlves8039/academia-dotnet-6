@@ -1,8 +1,13 @@
-<h1 align="center">Academia DotNet 5</h1>
+<h1 align="center">Academia DotNet 6</h1>
 
 ## :computer: Projeto
 
-Repositório com lista de exercícios da Academia Dotnet 5
+Repositório com lista de exercícios da Academia Dotnet 6
+
+## ✔️ Recursos Utilizados
+
+- ``.NET 6.0``
+- ``C#``
 
 ## :floppy_disk: Clonar Repositório
 
