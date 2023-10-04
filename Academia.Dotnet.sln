@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosSequencias.13", "ExerciciosSequencias\Academia.Dotnet.ExerciciosSequencias.13\Academia.Dotnet.ExerciciosSequencias.13.csproj", "{29F79AE2-0229-47A0-A4E1-12ACC7FCF22E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosSelecao.01", "ExerciciosSelecao\Academia.Dotnet.ExerciciosSelecao.01\Academia.Dotnet.ExerciciosSelecao.01.csproj", "{4C459030-E5D7-46A9-8036-14A9CA5A477C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{29F79AE2-0229-47A0-A4E1-12ACC7FCF22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29F79AE2-0229-47A0-A4E1-12ACC7FCF22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29F79AE2-0229-47A0-A4E1-12ACC7FCF22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C459030-E5D7-46A9-8036-14A9CA5A477C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C459030-E5D7-46A9-8036-14A9CA5A477C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C459030-E5D7-46A9-8036-14A9CA5A477C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C459030-E5D7-46A9-8036-14A9CA5A477C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{0F0FC22E-28CC-49EA-86AF-7B4BD34127CA} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
 		{C92F80D6-0DE6-4ED9-947B-93E1DFEA2551} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
 		{29F79AE2-0229-47A0-A4E1-12ACC7FCF22E} = {75E2D83D-DBA5-4DBE-971C-0CD9963FF36D}
+		{4C459030-E5D7-46A9-8036-14A9CA5A477C} = {E40DD4F2-609A-4814-8BBA-15520F8EF1B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
