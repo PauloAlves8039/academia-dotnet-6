@@ -18,16 +18,16 @@ internal class Program
         Console.WriteLine("***** Distribuição de Notas *****");
 
         Console.Write("Digite o valor da quantia solicitada: ");
-        decimal valorSolicitado = decimal.Parse(Console.ReadLine());
+        double valorSolicitado = double.Parse(Console.ReadLine());
 
         DistribuirNotas(valorSolicitado);
 
         Console.ReadKey();
     }
 
-    private static void DistribuirNotas(decimal valor)
+    private static void DistribuirNotas(double valor)
     {
-        decimal[] notas = { 50.0m, 20.0m, 10.0m, 5.0m, 1.0m };
+        double[] notas = { 50.0, 20.0, 10.0, 5.0, 1.0 };
         int[] quantidadeNotas = new int[notas.Length];
 
         Console.WriteLine("Distribuição das notas:");
