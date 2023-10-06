@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Globalization;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -35,10 +37,10 @@
         Console.ReadKey();
     }
 
-    private static int CalcularMediaDeIdade(int numero, int idades) 
+    private static double CalcularMediaDeIdade(int numero, int idades) 
     {
-        int mediaIdades = idades / numero;
-        Console.WriteLine($"A média das idades é: {mediaIdades} anos!");
+        double mediaIdades = (double)idades / numero;
+        Console.WriteLine($"A média das idades é: {mediaIdades.ToString("F2", CultureInfo.InvariantCulture)} anos!");
         
         return mediaIdades;
     }
