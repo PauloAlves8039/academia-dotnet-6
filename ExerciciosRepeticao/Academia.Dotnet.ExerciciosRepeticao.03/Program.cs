@@ -19,12 +19,12 @@
 
     private static void ExibirTabuadaDeSoma(int numero)
     {
-        Console.WriteLine($"Tabuada de {numero} (soma): ");
+        Console.WriteLine($"Tabuada de {numero}: ");
 
         for (int i = 1; i <= 10; i++)
         {
-            int resultado = numero + i;
-            Console.WriteLine($"{numero} + {i} = {resultado}");
+            int resultado = numero * i;
+            Console.WriteLine($"{numero} * {i} = {resultado}");
         }
     }
 }
