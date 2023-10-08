@@ -8,6 +8,8 @@
 
     private static void Main(string[] args)
     {
+        Console.WriteLine("***** Verificar Número Inteiro *****");
+
         bool repetir = true;
 
         while (repetir)
