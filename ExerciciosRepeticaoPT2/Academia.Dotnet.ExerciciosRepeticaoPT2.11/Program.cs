@@ -9,6 +9,8 @@ internal class Program
 
     private static void Main(string[] args)
     {
+        Console.WriteLine("***** Média dos Alunos *****");
+
         double nota;
         double notaMaisAlta = double.MinValue;
         double notaMaisBaixa = double.MaxValue;
