@@ -113,15 +113,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.10", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.10\Academia.Dotnet.ExerciciosRepeticaoPT2.10.csproj", "{D3DF3566-2927-480C-9D32-06ED73DD9465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.11", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.11\Academia.Dotnet.ExerciciosRepeticaoPT2.11.csproj", "{04CB917F-64C6-4BFE-BF73-354DFFB73A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.11", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.11\Academia.Dotnet.ExerciciosRepeticaoPT2.11.csproj", "{04CB917F-64C6-4BFE-BF73-354DFFB73A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.12", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.12\Academia.Dotnet.ExerciciosRepeticaoPT2.12.csproj", "{1C0985C9-2B66-49CE-BE47-15FF0DF0A08D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.12", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.12\Academia.Dotnet.ExerciciosRepeticaoPT2.12.csproj", "{1C0985C9-2B66-49CE-BE47-15FF0DF0A08D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.13", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.13\Academia.Dotnet.ExerciciosRepeticaoPT2.13.csproj", "{75B6FAFF-FD62-45F5-8D47-385E37C5616C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.13", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.13\Academia.Dotnet.ExerciciosRepeticaoPT2.13.csproj", "{75B6FAFF-FD62-45F5-8D47-385E37C5616C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.14", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.14\Academia.Dotnet.ExerciciosRepeticaoPT2.14.csproj", "{1CD6774C-CF7B-4C0A-B364-BBF6E9324311}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.14", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.14\Academia.Dotnet.ExerciciosRepeticaoPT2.14.csproj", "{1CD6774C-CF7B-4C0A-B364-BBF6E9324311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.15", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.15\Academia.Dotnet.ExerciciosRepeticaoPT2.15.csproj", "{A56FB018-A845-4B3E-B950-4629919837BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.15", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.15\Academia.Dotnet.ExerciciosRepeticaoPT2.15.csproj", "{A56FB018-A845-4B3E-B950-4629919837BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.16", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.16\Academia.Dotnet.ExerciciosRepeticaoPT2.16.csproj", "{D2897659-5AA7-4F2E-B7C6-114621C06E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.17", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.17\Academia.Dotnet.ExerciciosRepeticaoPT2.17.csproj", "{C32383C0-FA2C-45F7-8543-0001F079DDA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.18", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.18\Academia.Dotnet.ExerciciosRepeticaoPT2.18.csproj", "{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.19", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.19\Academia.Dotnet.ExerciciosRepeticaoPT2.19.csproj", "{92988534-1DA4-4825-925C-8BDB6C6EC382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosRepeticaoPT2.20", "ExerciciosRepeticaoPT2\Academia.Dotnet.ExerciciosRepeticaoPT2.20\Academia.Dotnet.ExerciciosRepeticaoPT2.20.csproj", "{303353F1-F6FA-4415-837E-122B73DDAA3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -353,6 +363,26 @@ Global
 		{A56FB018-A845-4B3E-B950-4629919837BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56FB018-A845-4B3E-B950-4629919837BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56FB018-A845-4B3E-B950-4629919837BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2897659-5AA7-4F2E-B7C6-114621C06E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2897659-5AA7-4F2E-B7C6-114621C06E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2897659-5AA7-4F2E-B7C6-114621C06E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2897659-5AA7-4F2E-B7C6-114621C06E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32383C0-FA2C-45F7-8543-0001F079DDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32383C0-FA2C-45F7-8543-0001F079DDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32383C0-FA2C-45F7-8543-0001F079DDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32383C0-FA2C-45F7-8543-0001F079DDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92988534-1DA4-4825-925C-8BDB6C6EC382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92988534-1DA4-4825-925C-8BDB6C6EC382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92988534-1DA4-4825-925C-8BDB6C6EC382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92988534-1DA4-4825-925C-8BDB6C6EC382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303353F1-F6FA-4415-837E-122B73DDAA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303353F1-F6FA-4415-837E-122B73DDAA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303353F1-F6FA-4415-837E-122B73DDAA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303353F1-F6FA-4415-837E-122B73DDAA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -414,6 +444,11 @@ Global
 		{75B6FAFF-FD62-45F5-8D47-385E37C5616C} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
 		{1CD6774C-CF7B-4C0A-B364-BBF6E9324311} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
 		{A56FB018-A845-4B3E-B950-4629919837BC} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
+		{D2897659-5AA7-4F2E-B7C6-114621C06E47} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
+		{C32383C0-FA2C-45F7-8543-0001F079DDA0} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
+		{5A7E587B-F3F6-4BB9-8B3E-419AC1D19E92} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
+		{92988534-1DA4-4825-925C-8BDB6C6EC382} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
+		{303353F1-F6FA-4415-837E-122B73DDAA3D} = {9DECBA86-CD4D-4580-BEF4-05842820C301}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
