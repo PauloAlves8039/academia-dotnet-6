@@ -1,5 +1,10 @@
 ﻿internal class Program
 {
+    /*
+     * 5 - Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” 
+     * se a média das duas notas for maior ou igual a 7,0. 
+    */
+
     private static void Main(string[] args)
     {
         Console.WriteLine("***** Média de Duas Notas *****");

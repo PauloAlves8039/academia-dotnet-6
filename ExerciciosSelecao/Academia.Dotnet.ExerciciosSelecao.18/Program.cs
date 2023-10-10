@@ -1,11 +1,11 @@
 ﻿internal class Program
 {
+    /*
+    * 18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
-        */
-
         Console.WriteLine("***** Verificar o Maior Valor *****");
 
         Console.Write("Digite o primeiro valor: ");

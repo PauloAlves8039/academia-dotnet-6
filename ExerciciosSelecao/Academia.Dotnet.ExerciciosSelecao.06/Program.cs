@@ -2,15 +2,15 @@
 
 internal class Program
 {
+    /*
+    * 6 - Faça um programa em C# e no Visual Studio para receber o nome (totalmente em maiúsculo), 
+    * a altura (metros) e o peso (kg) de uma pessoa.
+    * O programa deve calcular o Indice de Massa Corpórea (IMC), exibi-lo ao usuário e informar sua situação conforme a tabela.
+    * O cálculo do imc = peso / (altura * altura)
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 6 - Faça um programa em C# e no Visual Studio para receber o nome (totalmente em maiúsculo), 
-         * a altura (metros) e o peso (kg) de uma pessoa.
-         * O programa deve calcular o Indice de Massa Corpórea (IMC), exibi-lo ao usuário e informar sua situação conforme a tabela.
-         * O cálculo do imc = peso / (altura * altura)
-        */
-
         Console.WriteLine("***** Cálculo de IMC *****");
 
         Console.WriteLine("Calculadora de IMC");

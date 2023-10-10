@@ -2,14 +2,14 @@
 
 internal class Program
 {
+    /*
+    * 21 - Crie um programa que permita que o usuário selecione uma unidade de medida de entrada 
+    * (metros, centímetros, polegadas ou pés) e uma unidade de medida de saída usando um menu com o comando switch case. 
+    * O programa deve, em seguida, pedir ao usuário um valor de entrada e converter esse valor para a unidade de saída selecionada.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 21 - Crie um programa que permita que o usuário selecione uma unidade de medida de entrada 
-         * (metros, centímetros, polegadas ou pés) e uma unidade de medida de saída usando um menu com o comando switch case. 
-         * O programa deve, em seguida, pedir ao usuário um valor de entrada e converter esse valor para a unidade de saída selecionada.
-        */
-
         Console.WriteLine("***** Conversos de Unidade de Medidas *****");
 
         Console.WriteLine("Selecione a unidade de medida de entrada:");

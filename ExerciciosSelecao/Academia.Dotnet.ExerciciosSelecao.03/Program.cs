@@ -2,13 +2,13 @@
 
 internal class Program
 {
+    /*
+    * 3 - Escrever um algoritmo para ler quatro valores inteiros, calcular a sua média, 
+    * e escrever na tela os que são superiores à média.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 3 - Escrever um algoritmo para ler quatro valores inteiros, calcular a sua média, 
-         * e escrever na tela os que são superiores à média.
-        */
-
         Console.WriteLine("***** Exibir Média Superior *****");
 
         int[] valores = new int[4];

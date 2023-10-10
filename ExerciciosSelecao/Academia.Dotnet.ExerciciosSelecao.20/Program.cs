@@ -1,12 +1,14 @@
 ﻿internal class Program
 {
+    /*
+    * 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
+    * O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+    * plus: você pode gerar o número de forma randomica (função random c#).
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
-         * O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
-         * plus: você pode gerar o número de forma randomica (função random c#).
-        */
+        Console.WriteLine("***** Jogo de Adivinhação do Número *****");
 
         Console.WriteLine("Bem-vindo ao Jogo de Adivinhação do Número Secreto!");
         Console.WriteLine("Você tem 3 chances para adivinhar o número secreto entre 1 e 30.");

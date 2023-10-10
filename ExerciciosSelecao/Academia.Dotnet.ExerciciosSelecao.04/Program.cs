@@ -2,14 +2,14 @@
 
 internal class Program
 {
+    /*
+    * 4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores 
+    * e o valor por hora recebido por cada um deles. 
+    * Mostrar na tela qual dos professores tem o maior salário total.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 4 - Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores 
-         * e o valor por hora recebido por cada um deles. 
-         * Mostrar na tela qual dos professores tem o maior salário total.
-        */
-
         Console.WriteLine("***** Calcular Salário de Professor *****");
 
         Console.Write("\nDigite a quantidade de horas aula do primeiro professor: ");

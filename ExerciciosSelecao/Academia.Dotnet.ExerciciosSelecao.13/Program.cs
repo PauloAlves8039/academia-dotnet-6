@@ -2,15 +2,15 @@
 
 internal class Program
 {
+    /*
+    * 13 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um programa no VS que calcule 
+    * seu peso ideal, utilizando as seguintes fórmulas:
+    * Para homens: (72.7 * h) - 58
+    * Para mulheres: (62.1 * h) - 44.7
+    */
+    
     private static void Main(string[] args)
     {
-        /*
-         * 13 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um programa no VS que calcule 
-         * seu peso ideal, utilizando as seguintes fórmulas:
-         * Para homens: (72.7 * h) - 58
-         * Para mulheres: (62.1 * h) - 44.7
-         */
-
         Console.WriteLine("***** Calculadora de Peso Ideal *****");
 
         Console.Write("Informe sua altura (em metros): ");

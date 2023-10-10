@@ -1,11 +1,11 @@
 ﻿internal class Program
 {
+    /*
+    * 19 - Ajuste o exercício 18 de maneira que mostre os valores informados em ordem crescente.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 19 - Ajuste o exercício 18 de maneira que mostre os valores informados em ordem crescente.
-        */
-
         Console.WriteLine("***** Exibir Valor em Ordem Crescente *****");
 
         Console.Write("Digite o primeiro valor: ");

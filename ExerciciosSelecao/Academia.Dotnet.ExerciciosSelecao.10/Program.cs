@@ -1,12 +1,12 @@
 ﻿internal class Program
 {
+    /*
+    * 10 - Faça um programa no VS que receba dados de dois atletas (nome, idade e altura).
+    * O programa deve mostrar os dados do atleta mais novo e mais alto.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 10 - Faça um programa no VS que receba dados de dois atletas (nome, idade e altura).
-         * O programa deve mostrar os dados do atleta mais novo e mais alto.
-        */
-
         Console.WriteLine("***** Comparar Dados de Atletas *****");
 
         List<string> listaDeNomes = new List<string>();
