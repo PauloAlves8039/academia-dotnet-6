@@ -1,12 +1,12 @@
 ﻿internal class Program
 {
+    /*
+    * 4. Escreva um algoritmo que leia dois valores pelo teclado, x e y, e em seguida calcule a potência de x
+    * elevado na y sem utilizar a função pow.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 4. Escreva um algoritmo que leia dois valores pelo teclado, x e y, e em seguida calcule a potência de x
-         * elevado na y sem utilizar a função pow.
-        */
-
         Console.WriteLine("***** Calcular Potência *****");
 
         Console.Write("Digite o valor de x: ");

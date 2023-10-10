@@ -2,13 +2,13 @@
 
 internal class Program
 {
+    /*
+    * 1. Escreva um algoritmo para ler um número n, e em seguida ler pelo teclado a idade de n 
+    * pessoas e calcular a média das idades.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 1. Escreva um algoritmo para ler um número n, e em seguida ler pelo teclado a idade de n 
-         * pessoas e calcular a média das idades.
-        */
-
         Console.WriteLine("***** Calcular a Média das Idades *****");
 
         Console.Write("\nDigite o número de pessoas: ");

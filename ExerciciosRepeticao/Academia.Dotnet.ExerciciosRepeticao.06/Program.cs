@@ -1,13 +1,13 @@
 ﻿internal class Program
 {
+    /*
+    * 6. Escreva um algoritmo que leia o número de alunos de uma turma e em seguida leia a quantidade de avaliações 
+    * aplicadas para aquela turma. Por fim, leia as notas das avaliações de cada aluno e mostre sua nota final 
+    * (média das notas das avaliações).
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 6. Escreva um algoritmo que leia o número de alunos de uma turma e em seguida leia a quantidade de avaliações 
-         * aplicadas para aquela turma. Por fim, leia as notas das avaliações de cada aluno e mostre sua nota final 
-         * (média das notas das avaliações).
-        */
-
         Console.WriteLine("***** Calcular Notas dos Alunos *****");
 
         Console.Write("Digite o número de alunos na turma: ");

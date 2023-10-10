@@ -1,13 +1,17 @@
 ﻿internal class Program
 {
+    /*
+    * 2. Faça um algoritmo que leia 10 números pelo teclado, e que no final mostre o maior deles. Não usar vetor.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 2. Faça um algoritmo que leia 10 números pelo teclado, e que no final mostre o maior deles. Não usar vetor.
-        */
+        Console.WriteLine("***** Verificar Maior Valor *****");
 
         int maiorNumero = int.MinValue;
         int numero = 0;
+
+        Console.WriteLine();
 
         for (int i = 1; i <= 10; i++)
         {

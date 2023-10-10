@@ -1,12 +1,12 @@
 ﻿internal class Program
 {
+    /*
+    * 3. Escreva um algoritmo que leia pelo teclado um valor e então calcule a tabuada de 1 a 10 de um número
+    * x lido utilizando laços de repetição, e mostre na tela.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 3. Escreva um algoritmo que leia pelo teclado um valor e então calcule a tabuada de 1 a 10 de um número
-         * x lido utilizando laços de repetição, e mostre na tela.
-        */
-
         Console.Write("Digite um número para calcular a tabuada: ");
         int numero = int.Parse(Console.ReadLine());
 

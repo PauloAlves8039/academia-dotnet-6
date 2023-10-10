@@ -1,11 +1,11 @@
 ﻿internal class Program
 {
+    /*
+    * 5. Escreva um algoritmo para calcular o fatorial de um número.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 5. Escreva um algoritmo para calcular o fatorial de um número.
-        */
-        
         Console.WriteLine("***** Calcular Fatorial *****");
 
         Console.Write("Digite um número inteiro não negativo: ");
