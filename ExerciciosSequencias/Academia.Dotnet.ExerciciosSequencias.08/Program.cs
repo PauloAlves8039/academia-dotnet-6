@@ -2,13 +2,13 @@
 
 internal class Program
 {
+    /*
+    * 8) Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. 
+    * A fórmula da conversão é F=(9*C+160)/5.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 8) Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. 
-         * A fórmula da conversão é F=(9*C+160)/5.
-        */
-
         Console.WriteLine("***** Converter Celsius Para Fahrenheit *****");
 
         Console.Write("Informe o valor Celsius: ");

@@ -1,12 +1,12 @@
 ﻿internal class Program
 {
+    /*
+    * 4) Faça um programa em C# e no Visual Studio que receba a data na forma DDMMAAAA e imprima na 
+    * forma AAAAMMDD e AAMMDD. Note que o dia, o mês e o ano devem ser lidos em variáveis diferentes.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 4) Faça um programa em C# e no Visual Studio que receba a data na forma DDMMAAAA e imprima na 
-         * forma AAAAMMDD e AAMMDD. Note que o dia, o mês e o ano devem ser lidos em variáveis diferentes.
-        */
-
         Console.WriteLine("***** Formatar Data *****");
 
         Console.Write("Digite a data no formato DDMMAAAA: ");

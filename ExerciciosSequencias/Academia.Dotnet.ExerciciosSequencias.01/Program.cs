@@ -1,11 +1,11 @@
 ﻿internal class Program
 {
+    /*
+    * 1) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.
+    */
+
     private static void Main(string[] args)
     {
-        /*
-         * 1) Escreva um programa em C# e no Visual Studio para calcular a média aritmética entre dois números quaisquer.
-        */
-
         Console.WriteLine("***** Média Aritmética *****");
 
         Console.Write("Informe o primeiro valor: ");
