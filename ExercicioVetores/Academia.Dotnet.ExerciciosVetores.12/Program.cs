@@ -18,31 +18,34 @@
             vetor[i] = int.Parse(Console.ReadLine());
         }
 
-        Console.Write("Digite um número para verificar no vetor: ");
+        Console.Write("\nDigite um número para verificar no vetor: ");
         int numeroN = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("\n-------- Resultado --------");
-        PesquisarNumeroNoVetor(vetor, numeroN);
+        Console.WriteLine("\n---------- Resultado ----------");
+        bool resultadoDaPesquisa = PesquisarNumeroNoVetor(vetor, numeroN);
+
+        if (resultadoDaPesquisa)
+        {
+            Console.WriteLine($"O número {numeroN} foi encontrado no vetor!");
+        }
+        else
+        {
+            Console.WriteLine($"O número {numeroN} não existe no vetor!");
+        }
 
         Console.ReadKey();
     }
 
-    static void PesquisarNumeroNoVetor(int[] vetor, int numero)
+    private static bool PesquisarNumeroNoVetor(int[] vetor, int numero)
     {
-        bool numeroEncontrado = false;
-
         for (int i = 0; i < vetor.Length; i++)
         {
             if (vetor[i] == numero)
             {
-                Console.WriteLine($"O número {numero} foi encontrado na posição {i + 1}");
-                numeroEncontrado = true;
+                return true;
             }
         }
 
-        if (!numeroEncontrado)
-        {
-            Console.WriteLine($"O número {numero} não existe no vetor!");
-        }
+        return false; 
     }
 }
