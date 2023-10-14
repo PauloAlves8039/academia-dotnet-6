@@ -1,7 +1,7 @@
 ﻿internal class Program
 {
     /*
-     * 16.	Escreva um algoritmo que leia 2 vetores X[10] e Y[10] e os escreva. Crie, a seguir, um vetor para cada uma das operações:
+     * 16.Escreva um algoritmo que leia 2 vetores X[10] e Y[10] e os escreva. Crie, a seguir, um vetor para cada uma das operações:
 	 * A união de X com Y
 	 * A diferença entre X e Y
 	 * A interseção entre X e Y
@@ -123,11 +123,11 @@
 
     private static void ExibirVetor(int[] vetor)
     {
-        foreach (var elemento in vetor)
+        for (int i = 0; i < vetor.Length; i++)
         {
-            if (elemento != 0)
+            if (vetor[i] != 0)
             {
-                Console.Write($"{elemento} ");
+                Console.Write($"{vetor[i]} ");
             }
         }
         Console.WriteLine();
