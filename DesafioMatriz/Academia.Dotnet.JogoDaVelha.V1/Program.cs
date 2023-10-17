@@ -23,24 +23,24 @@
 
         do
         {
-            MontarTabuleiro();
+            MontagemDoTabuleiro();
 
             do
             {
                 Console.Write($"Jogador {jogadorAtual} - escolha uma posição (1-9): ");
-            } while (!int.TryParse(Console.ReadLine(), out posicao) || !JogadaValida(posicao - 1));
+            } while (!int.TryParse(Console.ReadLine(), out posicao) || !ValidarJogada(posicao - 1));
 
             tabuleiro[posicao - 1] = jogadorAtual;
 
-            if (VerificarVitoria())
+            if (VerificarVencedor())
             {
-                MontarTabuleiro();
+                MontagemDoTabuleiro();
                 Console.WriteLine($"Jogador {jogadorAtual} venceu!");
                 jogoEmAndamento = false;
             }
-            else if (TabuleiroCompleto())
+            else if (VerificarTabuleiroCompleto())
             {
-                MontarTabuleiro();
+                MontagemDoTabuleiro();
                 Console.WriteLine("Empate!");
                 jogoEmAndamento = false;
             }
@@ -69,7 +69,7 @@
         Console.ReadKey();
     }
 
-    private static void MontarTabuleiro()
+    private static void MontagemDoTabuleiro()
     {
         Console.Clear();
         Console.WriteLine($" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} ");
@@ -79,12 +79,12 @@
         Console.WriteLine($" {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]} ");
     }
 
-    private static bool JogadaValida(int posicao)
+    private static bool ValidarJogada(int posicao)
     {
         return posicao >= 0 && posicao < 9 && tabuleiro[posicao] != 'X' && tabuleiro[posicao] != 'O';
     }
 
-    private static bool VerificarVitoria()
+    private static bool VerificarVencedor()
     {
         bool linha1 = tabuleiro[0] == jogadorAtual && tabuleiro[4] == jogadorAtual && tabuleiro[8] == jogadorAtual;
         bool linha2 = tabuleiro[2] == jogadorAtual && tabuleiro[4] == jogadorAtual && tabuleiro[6] == jogadorAtual;
@@ -108,7 +108,7 @@
         return false;
     }
 
-    private static bool TabuleiroCompleto()
+    private static bool VerificarTabuleiroCompleto()
     {
         for (int i = 0; i < tabuleiro.Length; i++)
         {
