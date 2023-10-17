@@ -205,7 +205,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Desafio Matriz", "07 - Desafio Matriz", "{CFBF784C-1B2A-45F0-A90F-4F02E7791582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.JogoDaVelha.V1", "DesafioMatriz\Academia.Dotnet.JogoDaVelha.V1\Academia.Dotnet.JogoDaVelha.V1.csproj", "{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.JogoDaVelha.V1", "DesafioMatriz\Academia.Dotnet.JogoDaVelha.V1\Academia.Dotnet.JogoDaVelha.V1.csproj", "{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.JogoDaVelha.V2", "DesafioMatriz\Academia.Dotnet.JogoDaVelha.V2\Academia.Dotnet.JogoDaVelha.V2.csproj", "{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -593,6 +595,10 @@ Global
 		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -693,6 +699,7 @@ Global
 		{E84B2F33-CBBC-4B00-8040-E9885D12DDA3} = {71896DE7-D2DC-4578-BC02-62BFB603B85A}
 		{F7045981-A6D6-4CE8-A14D-5807F0610B19} = {71896DE7-D2DC-4578-BC02-62BFB603B85A}
 		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D} = {CFBF784C-1B2A-45F0-A90F-4F02E7791582}
+		{F513FD3F-4701-421B-8A07-D3B2EBC0D6DE} = {CFBF784C-1B2A-45F0-A90F-4F02E7791582}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
