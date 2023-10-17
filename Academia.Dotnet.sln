@@ -177,31 +177,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.04", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.04\Academia.Dotnet.ExerciciosMatrizes.04.csproj", "{F7A853B2-7E06-4823-B4F9-C7032A7AE381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.05", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.05\Academia.Dotnet.ExerciciosMatrizes.05.csproj", "{0169A9C4-2CA6-42CA-86DC-DCBF3C2E0E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.05", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.05\Academia.Dotnet.ExerciciosMatrizes.05.csproj", "{0169A9C4-2CA6-42CA-86DC-DCBF3C2E0E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.06", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.06\Academia.Dotnet.ExerciciosMatrizes.06.csproj", "{7DA3B9F5-A346-4303-B91F-8FDE92FF5798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.06", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.06\Academia.Dotnet.ExerciciosMatrizes.06.csproj", "{7DA3B9F5-A346-4303-B91F-8FDE92FF5798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.07", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.07\Academia.Dotnet.ExerciciosMatrizes.07.csproj", "{FCF048B7-D74A-4E3A-8F0F-685DF768BD01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.07", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.07\Academia.Dotnet.ExerciciosMatrizes.07.csproj", "{FCF048B7-D74A-4E3A-8F0F-685DF768BD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.08", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.08\Academia.Dotnet.ExerciciosMatrizes.08.csproj", "{F74F7CE4-EDF0-49FF-B46E-4F112AC9F389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.08", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.08\Academia.Dotnet.ExerciciosMatrizes.08.csproj", "{F74F7CE4-EDF0-49FF-B46E-4F112AC9F389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.09", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.09\Academia.Dotnet.ExerciciosMatrizes.09.csproj", "{7A5BA382-210F-4EA9-B5E9-C4C54A55486C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.09", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.09\Academia.Dotnet.ExerciciosMatrizes.09.csproj", "{7A5BA382-210F-4EA9-B5E9-C4C54A55486C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.10", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.10\Academia.Dotnet.ExerciciosMatrizes.10.csproj", "{768F72D8-00D6-4E61-A243-34F70860D1A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.10", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.10\Academia.Dotnet.ExerciciosMatrizes.10.csproj", "{768F72D8-00D6-4E61-A243-34F70860D1A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.11", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.11\Academia.Dotnet.ExerciciosMatrizes.11.csproj", "{F58883F4-EE15-4622-A6F7-4D26B66C3EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.11", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.11\Academia.Dotnet.ExerciciosMatrizes.11.csproj", "{F58883F4-EE15-4622-A6F7-4D26B66C3EAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.12", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.12\Academia.Dotnet.ExerciciosMatrizes.12.csproj", "{4EBE7099-E5E2-424F-8670-6EC8F96F54A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.12", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.12\Academia.Dotnet.ExerciciosMatrizes.12.csproj", "{4EBE7099-E5E2-424F-8670-6EC8F96F54A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.13", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.13\Academia.Dotnet.ExerciciosMatrizes.13.csproj", "{CFADC4C1-F474-4C59-B7F9-A07839E6E6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.13", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.13\Academia.Dotnet.ExerciciosMatrizes.13.csproj", "{CFADC4C1-F474-4C59-B7F9-A07839E6E6E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.14", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.14\Academia.Dotnet.ExerciciosMatrizes.14.csproj", "{EA2F10F4-4C1D-46DD-9A57-65B63DDA1250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.14", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.14\Academia.Dotnet.ExerciciosMatrizes.14.csproj", "{EA2F10F4-4C1D-46DD-9A57-65B63DDA1250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.15", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.15\Academia.Dotnet.ExerciciosMatrizes.15.csproj", "{0B8BD026-691B-4E6C-A873-871E3CABCA0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.15", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.15\Academia.Dotnet.ExerciciosMatrizes.15.csproj", "{0B8BD026-691B-4E6C-A873-871E3CABCA0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.16", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.16\Academia.Dotnet.ExerciciosMatrizes.16.csproj", "{E84B2F33-CBBC-4B00-8040-E9885D12DDA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.16", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.16\Academia.Dotnet.ExerciciosMatrizes.16.csproj", "{E84B2F33-CBBC-4B00-8040-E9885D12DDA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosMatrizes.17", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.17\Academia.Dotnet.ExerciciosMatrizes.17.csproj", "{F7045981-A6D6-4CE8-A14D-5807F0610B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosMatrizes.17", "ExerciciosMatrizes\Academia.Dotnet.ExerciciosMatrizes.17\Academia.Dotnet.ExerciciosMatrizes.17.csproj", "{F7045981-A6D6-4CE8-A14D-5807F0610B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Desafio Matriz", "07 - Desafio Matriz", "{CFBF784C-1B2A-45F0-A90F-4F02E7791582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.JogoDaVelha.V1", "DesafioMatriz\Academia.Dotnet.JogoDaVelha.V1\Academia.Dotnet.JogoDaVelha.V1.csproj", "{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -585,6 +589,10 @@ Global
 		{F7045981-A6D6-4CE8-A14D-5807F0610B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7045981-A6D6-4CE8-A14D-5807F0610B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7045981-A6D6-4CE8-A14D-5807F0610B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -684,6 +692,7 @@ Global
 		{0B8BD026-691B-4E6C-A873-871E3CABCA0A} = {71896DE7-D2DC-4578-BC02-62BFB603B85A}
 		{E84B2F33-CBBC-4B00-8040-E9885D12DDA3} = {71896DE7-D2DC-4578-BC02-62BFB603B85A}
 		{F7045981-A6D6-4CE8-A14D-5807F0610B19} = {71896DE7-D2DC-4578-BC02-62BFB603B85A}
+		{15D880FB-EC3F-4B6C-9F3C-C22160757C2D} = {CFBF784C-1B2A-45F0-A90F-4F02E7791582}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
