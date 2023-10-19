@@ -1,8 +1,8 @@
-<h1 align="center">Academia DotNet 6</h1>
+<h1 align="center">Academia DotNet</h1>
 
 ## :computer: Projeto
 
-Repositório com lista de exercícios da Academia Dotnet 6
+Repositório com lista de exercícios e desafios da Academia DotNet da UFN.
 
 ## ✔️ Recursos Utilizados
 
