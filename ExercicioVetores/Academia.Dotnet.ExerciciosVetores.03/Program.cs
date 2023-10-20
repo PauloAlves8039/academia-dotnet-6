@@ -9,11 +9,11 @@
     {
         Console.WriteLine("***** Verificar Números Primos em Vetores *****");
 
-        int[] vetor = new int[20];
+        int[] vetor = new int[10];
 
         for (int i = 0; i < vetor.Length; i++)
         {
-            Console.Write($"Digite o valor #{i + 1}: ");
+            Console.Write($"Digite o valor {i + 1}: ");
             vetor[i] = int.Parse(Console.ReadLine());
         }
 
@@ -24,7 +24,7 @@
         {
             if (VerificarNumeroPrimo(vetor[i]))
             {
-                Console.WriteLine($"Vetor[{i}] = {vetor[i]}");
+                Console.WriteLine($"Vetor[{i}] = {vetor[i]} (índice {i})");
             }
         }
 
