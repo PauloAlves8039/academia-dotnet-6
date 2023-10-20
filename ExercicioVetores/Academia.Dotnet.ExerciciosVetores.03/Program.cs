@@ -9,7 +9,7 @@
     {
         Console.WriteLine("***** Verificar Números Primos em Vetores *****");
 
-        int[] vetor = new int[10];
+        int[] vetor = new int[20];
 
         for (int i = 0; i < vetor.Length; i++)
         {
