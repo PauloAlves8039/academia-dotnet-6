@@ -211,23 +211,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.JogoDaVelha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - Exercícios Funções", "08 - Exercícios Funções", "{F0914108-67DF-4F04-BF80-30C93E8D4F3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.01", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.01\Academia.Dotnet.ExerciciosFuncoes.01.csproj", "{87427E59-B6BE-4177-8CFF-7B92DD5059A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.01", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.01\Academia.Dotnet.ExerciciosFuncoes.01.csproj", "{87427E59-B6BE-4177-8CFF-7B92DD5059A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.02", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.02\Academia.Dotnet.ExerciciosFuncoes.02.csproj", "{E8F66659-6E08-4131-96BE-25C59666DB3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.02", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.02\Academia.Dotnet.ExerciciosFuncoes.02.csproj", "{E8F66659-6E08-4131-96BE-25C59666DB3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.03", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.03\Academia.Dotnet.ExerciciosFuncoes.03.csproj", "{7758737D-4FB0-403E-AA3A-B4A72D1E96FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.03", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.03\Academia.Dotnet.ExerciciosFuncoes.03.csproj", "{7758737D-4FB0-403E-AA3A-B4A72D1E96FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.04", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.04\Academia.Dotnet.ExerciciosFuncoes.04.csproj", "{9BD47404-4872-4DA2-BEC0-1B50767F7596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.04", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.04\Academia.Dotnet.ExerciciosFuncoes.04.csproj", "{9BD47404-4872-4DA2-BEC0-1B50767F7596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.05", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.05\Academia.Dotnet.ExerciciosFuncoes.05.csproj", "{5F0835E9-7AD2-435D-8E48-8C6773536992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.05", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.05\Academia.Dotnet.ExerciciosFuncoes.05.csproj", "{5F0835E9-7AD2-435D-8E48-8C6773536992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.06", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.06\Academia.Dotnet.ExerciciosFuncoes.06.csproj", "{4F68C724-D009-4CB4-8248-986009809A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.06", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.06\Academia.Dotnet.ExerciciosFuncoes.06.csproj", "{4F68C724-D009-4CB4-8248-986009809A90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.07", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.07\Academia.Dotnet.ExerciciosFuncoes.07.csproj", "{14DD5282-DABF-42B8-A907-05253A3873A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.07", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.07\Academia.Dotnet.ExerciciosFuncoes.07.csproj", "{14DD5282-DABF-42B8-A907-05253A3873A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.08", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.08\Academia.Dotnet.ExerciciosFuncoes.08.csproj", "{D1B42CA7-FBFC-4AEE-B66E-55987D928D4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.08", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.08\Academia.Dotnet.ExerciciosFuncoes.08.csproj", "{D1B42CA7-FBFC-4AEE-B66E-55987D928D4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoes.09", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.09\Academia.Dotnet.ExerciciosFuncoes.09.csproj", "{2BF2099E-D9F0-405D-B803-53ABCBE493E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoes.09", "ExerciciosFuncoes\Academia.Dotnet.ExerciciosFuncoes.09\Academia.Dotnet.ExerciciosFuncoes.09.csproj", "{2BF2099E-D9F0-405D-B803-53ABCBE493E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Exercícios Funções PT2", "09 - Exercícios Funções PT2", "{16509ABC-1E35-4EE8-8D8B-1B7709256A7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoesPT2.01", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.01\Academia.Dotnet.ExerciciosFuncoesPT2.01.csproj", "{AE58563E-AA07-4596-82A4-AD7861E8E9B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoesPT2.02", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.02\Academia.Dotnet.ExerciciosFuncoesPT2.02.csproj", "{87BC8391-A15B-4EF8-91C1-FF6133CF4301}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoesPT2.03", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.03\Academia.Dotnet.ExerciciosFuncoesPT2.03.csproj", "{A155079B-1500-452B-A959-3B23A17C09A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Dotnet.ExerciciosFuncoesPT2.04", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.04\Academia.Dotnet.ExerciciosFuncoesPT2.04.csproj", "{3AEF0FA9-A81A-4B69-B754-651F962AF8AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoesPT2.05", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.05\Academia.Dotnet.ExerciciosFuncoesPT2.05.csproj", "{0E7B4787-76D4-4730-8EBE-329A98B6A870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoesPT2.06", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.06\Academia.Dotnet.ExerciciosFuncoesPT2.06.csproj", "{1F364374-42BC-4260-8EAD-17B1E23AFBAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Dotnet.ExerciciosFuncoesPT2.07", "ExerciciosFuncoesPT2\Academia.Dotnet.ExerciciosFuncoesPT2.07\Academia.Dotnet.ExerciciosFuncoesPT2.07.csproj", "{70C0094E-3669-4B4A-AB6E-0CDEC666AF97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -655,6 +671,34 @@ Global
 		{2BF2099E-D9F0-405D-B803-53ABCBE493E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF2099E-D9F0-405D-B803-53ABCBE493E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF2099E-D9F0-405D-B803-53ABCBE493E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE58563E-AA07-4596-82A4-AD7861E8E9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE58563E-AA07-4596-82A4-AD7861E8E9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE58563E-AA07-4596-82A4-AD7861E8E9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE58563E-AA07-4596-82A4-AD7861E8E9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BC8391-A15B-4EF8-91C1-FF6133CF4301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BC8391-A15B-4EF8-91C1-FF6133CF4301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BC8391-A15B-4EF8-91C1-FF6133CF4301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BC8391-A15B-4EF8-91C1-FF6133CF4301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A155079B-1500-452B-A959-3B23A17C09A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A155079B-1500-452B-A959-3B23A17C09A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A155079B-1500-452B-A959-3B23A17C09A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A155079B-1500-452B-A959-3B23A17C09A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEF0FA9-A81A-4B69-B754-651F962AF8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEF0FA9-A81A-4B69-B754-651F962AF8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEF0FA9-A81A-4B69-B754-651F962AF8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEF0FA9-A81A-4B69-B754-651F962AF8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7B4787-76D4-4730-8EBE-329A98B6A870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7B4787-76D4-4730-8EBE-329A98B6A870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7B4787-76D4-4730-8EBE-329A98B6A870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7B4787-76D4-4730-8EBE-329A98B6A870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F364374-42BC-4260-8EAD-17B1E23AFBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F364374-42BC-4260-8EAD-17B1E23AFBAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F364374-42BC-4260-8EAD-17B1E23AFBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F364374-42BC-4260-8EAD-17B1E23AFBAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C0094E-3669-4B4A-AB6E-0CDEC666AF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C0094E-3669-4B4A-AB6E-0CDEC666AF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C0094E-3669-4B4A-AB6E-0CDEC666AF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C0094E-3669-4B4A-AB6E-0CDEC666AF97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -765,6 +809,13 @@ Global
 		{14DD5282-DABF-42B8-A907-05253A3873A6} = {F0914108-67DF-4F04-BF80-30C93E8D4F3D}
 		{D1B42CA7-FBFC-4AEE-B66E-55987D928D4C} = {F0914108-67DF-4F04-BF80-30C93E8D4F3D}
 		{2BF2099E-D9F0-405D-B803-53ABCBE493E0} = {F0914108-67DF-4F04-BF80-30C93E8D4F3D}
+		{AE58563E-AA07-4596-82A4-AD7861E8E9B9} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{87BC8391-A15B-4EF8-91C1-FF6133CF4301} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{A155079B-1500-452B-A959-3B23A17C09A1} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{3AEF0FA9-A81A-4B69-B754-651F962AF8AF} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{0E7B4787-76D4-4730-8EBE-329A98B6A870} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{1F364374-42BC-4260-8EAD-17B1E23AFBAF} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
+		{70C0094E-3669-4B4A-AB6E-0CDEC666AF97} = {16509ABC-1E35-4EE8-8D8B-1B7709256A7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5853EF06-1F61-41E6-881D-F8D15B888461}
