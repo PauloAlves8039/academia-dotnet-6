@@ -15,7 +15,8 @@
         int colunas = 10;
         int[,] matriz = new int[linhas, colunas];
 
-        LerMatriz(matriz, linhas, colunas);
+        PreencherMatriz(matriz);
+        ImprimirMatriz(matriz);
 
         int linhaMax = 0; 
         int colunaMax = 0;
@@ -44,16 +45,15 @@
         Console.ReadKey();
     }
 
-    private static void LerMatriz(int[,] matriz, int linhas, int colunas) 
+    private static void PreencherMatriz(int[,] matriz)
     {
-        Console.WriteLine("Digite os valores da matriz 10x10:");
+        Random random = new Random();
 
-        for (int i = 0; i < linhas; i++)
+        for (int i = 0; i < 10; i++)
         {
-            for (int j = 0; j < colunas; j++)
+            for (int j = 0; j < 10; j++)
             {
-                Console.Write($"Digite o elemento [{i + 1},{j + 1}]: ");
-                matriz[i, j] = int.Parse(Console.ReadLine());
+                matriz[i, j] = random.Next(1, 101);
             }
         }
     }
@@ -74,5 +74,17 @@
         }
 
         return menorElemento;
+    }
+
+    private static void ImprimirMatriz(int[,] matriz)
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < 10; j++)
+            {
+                Console.Write(matriz[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
     }
 }
