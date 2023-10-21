@@ -1,44 +1,74 @@
 ﻿internal class Program
 {
     /*
-     * Parte 1
      * Desenvolva um jogo da velha utilizando matrizes em C#
      * 
-     * Parte 2
+     * 1) Faça com que cada jogador insira a sua jogada em uma interface amigavel. 
+     * 2) Teste se a posição é válida e caso não seja solicite ao jogador repetir a jogada. 
+     * 3) Após cada jogada, apresente o tabuleiro com as jogadas representadas por "X" e "O" e faça a verficação se algum jogador venceu.
+     * 4) Caso seja empate, apresente o resultado na tela. 
+     * 5) Possilibilite que o jogo seja reinicializado sem a necessidade de reiniciar o programa. 
+     * 
+     * Desafio extra
      * 1) Faça a implementação de um jogo contra o computador. 
      * 2) Faça o possível para evitar que o jogador vença do computador. 
      * 3) Para facilitar, faça com que o computador inicie jogando.
     */
 
     private static char[] tabuleiro = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
-    private static char jogadorAtual = 'O';
+    private static char jogadorAtual = 'X';
     private static bool jogoEmAndamento = true;
 
     private static void Main(string[] args)
     {
         Console.WriteLine("##### Bem-vindo(a) ao Jogo da Velha! #####");
-        Console.WriteLine("Pressione qualquer tecla para começar.");
-        Console.ReadKey();
+        Console.WriteLine();
+        Console.WriteLine("1 - Jogar contra outro jogador");
+        Console.WriteLine("2 - Jogar contra o computador");
+        Console.WriteLine("3 - Sair");
 
-        int posicao = 0;
-        jogadorAtual = 'X';
+        char escolha = ' ';
+
+        do
+        {
+            Console.Write("\nEscolha uma opção (1/2/3): ");
+            escolha = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+
+            switch (escolha)
+            {
+                case '1':
+                    PartidaContraOutroJogador();
+                    break;
+                case '2':
+                    PartidaContraComputador();
+                    break;
+                case '3':
+                    Console.WriteLine("\nFim do jogo. Obrigado por jogar!");
+                    break;
+                default:
+                    Console.WriteLine("Escolha uma opção válida (1/2/3).");
+                    break;
+            }
+        }
+        while (escolha != '3');
+    }
+
+    private static void PartidaContraOutroJogador()
+    {
+        ReiniciarJogo();
 
         do
         {
             MontagemDoTabuleiro();
 
-            if (jogadorAtual == 'X')
+            int posicao;
+
+            do
             {
-                posicao = EscolherJogadaDoComputador();
+                Console.Write($"Jogador {jogadorAtual} - escolha uma posição (1-9): ");
             }
-            else if (jogadorAtual == 'O')
-            {
-                do
-                {
-                    Console.Write($"Jogador {jogadorAtual} - escolha uma posição (1-9): ");
-                } 
-                while (!int.TryParse(Console.ReadLine(), out posicao) || !ValidarJogada(posicao - 1));
-            }
+            while (!int.TryParse(Console.ReadLine(), out posicao) || !ValidarJogada(posicao - 1));
 
             tabuleiro[posicao - 1] = jogadorAtual;
 
@@ -61,7 +91,7 @@
             }
             else
             {
-                Console.Write("Deseja reiniciar o jogo? (S/N): ");
+                Console.Write("\nDeseja reiniciar o jogo? (S/N): ");
                 char resposta = char.ToUpper(Console.ReadKey().KeyChar);
                 if (resposta == 'S')
                 {
@@ -73,100 +103,69 @@
                     break;
                 }
             }
-        } 
-        while (true);
+        } while (jogoEmAndamento);
     }
 
-    private static int EscolherJogadaDoComputador()
+    private static void PartidaContraComputador()
     {
-        int posicaoComputador;
+        bool continuar = true;
 
-        int posicaoDefesa = 0;
-
-        for (int i = 0; i < tabuleiro.Length; i++)
+        while (continuar)
         {
-            if (tabuleiro[i] == ' ')
+            ReiniciarJogo();
+
+            while (jogoEmAndamento)
             {
-                tabuleiro[i] = 'X';
+                MontagemDoTabuleiro();
+
+                int posicao = -1;
+
+                if (jogadorAtual == 'X')
+                {
+                    posicao = EscolherJogadaDoComputador();
+                }
+                else if (jogadorAtual == 'O')
+                {
+                    do
+                    {
+                        Console.Write($"Jogador {jogadorAtual} - escolha uma posição (1-9): ");
+                    }
+                    while (!int.TryParse(Console.ReadLine(), out posicao) || !ValidarJogada(posicao - 1));
+                }
+
+                tabuleiro[posicao - 1] = jogadorAtual;
 
                 if (VerificarVencedor())
                 {
-                    posicaoDefesa = i + 1;
-                    break;
+                    MontagemDoTabuleiro();
+                    Console.WriteLine($"Jogador {jogadorAtual} venceu!");
+                    jogoEmAndamento = false;
                 }
-
-                tabuleiro[i] = ' ';
-            }
-        }
-
-        int posicaoAtaque = 0;
-        for (int i = 0; i < tabuleiro.Length; i++)
-        {
-            if (tabuleiro[i] == ' ')
-            {
-                tabuleiro[i] = 'O';
-
-                if (VerificarVencedor())
+                else if (VerificarTabuleiroCompleto())
                 {
-                    posicaoAtaque = i + 1;
-                    break;
+                    MontagemDoTabuleiro();
+                    Console.WriteLine("Empate!");
+                    jogoEmAndamento = false;
                 }
 
-                tabuleiro[i] = ' ';
-            }
-        }
-
-        int posicaoOportunidade = 0;
-        for (int i = 0; i < tabuleiro.Length; i++)
-        {
-            if (tabuleiro[i] == ' ')
-            {
-                tabuleiro[i] = 'O';
-
-                if (VerificarVencedor())
+                if (jogoEmAndamento)
                 {
-                    posicaoOportunidade = i + 1;
-                    break;
+                    jogadorAtual = (jogadorAtual == 'X') ? 'O' : 'X';
                 }
-
-                tabuleiro[i] = ' ';
             }
-        }
 
-        if (posicaoDefesa > 0)
-        {
-            return posicaoDefesa;
-        }
-        else if (posicaoAtaque > 0)
-        {
-            return posicaoAtaque;
-        }
-        else if (posicaoOportunidade > 0)
-        {
-            return posicaoOportunidade;
-        }
-        else
-        {
-            do
+            Console.Write("\nDeseja reiniciar o jogo? (S/N): ");
+            char resposta = char.ToUpper(Console.ReadKey().KeyChar);
+            if (resposta == 'S')
             {
-                posicaoComputador = new Random().Next(0, 9);
+                continuar = true;
             }
-            while (!ValidarJogada(posicaoComputador));
-
-            return posicaoComputador + 1;
+            else
+            {
+                Console.WriteLine("\nFim do jogo. Obrigado por jogar!");
+                continuar = false;
+            }
         }
-    }
-
-    private static void MontagemDoTabuleiro()
-    {
-        Console.Clear();
-        Console.WriteLine($" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} ");
-        Console.WriteLine("---+---+---");
-        Console.WriteLine($" {tabuleiro[3]} | {tabuleiro[4]} | {tabuleiro[5]} ");
-        Console.WriteLine("---+---+---");
-        Console.WriteLine($" {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]} ");
-        Console.WriteLine("\nJogador X - Computador.");
-        Console.WriteLine("Jogador O - Usuário.\n");
     }
 
     private static bool ValidarJogada(int posicao)
@@ -198,6 +197,100 @@
         return false;
     }
 
+    private static int EscolherJogadaDoComputador()
+    {
+        int posicaoComputador;
+        int posicaoDefesa = 0;
+        int posicaoAtaque = 0;
+        int posicaoOportunidade = 0;
+
+        for (int i = 0; i < tabuleiro.Length; i++)
+        {
+            if (tabuleiro[i] == ' ')
+            {
+                tabuleiro[i] = 'X';
+
+                if (VerificarVencedor())
+                {
+                    posicaoDefesa = i + 1;
+                    break;
+                }
+
+                tabuleiro[i] = ' ';
+            }
+        }
+
+        for (int i = 0; i < tabuleiro.Length; i++)
+        {
+            if (tabuleiro[i] == ' ')
+            {
+                tabuleiro[i] = 'O';
+
+                if (VerificarVencedor())
+                {
+                    posicaoAtaque = i + 1;
+                    break;
+                }
+
+                tabuleiro[i] = ' ';
+            }
+        }
+
+        for (int i = 0; i < tabuleiro.Length; i++)
+        {
+            if (tabuleiro[i] == ' ')
+            {
+                tabuleiro[i] = 'O';
+
+                if (VerificarVencedor())
+                {
+                    posicaoOportunidade = i + 1;
+                    break;
+                }
+
+                tabuleiro[i] = ' ';
+            }
+        }
+
+        if (posicaoDefesa > 0)
+        {
+            return posicaoDefesa;
+        }
+        else if (posicaoAtaque > 0)
+        {
+            return posicaoAtaque;
+        }
+        else if (posicaoOportunidade > 0)
+        {
+            return posicaoOportunidade;
+        }
+        else
+        {
+            for (int i = 0; i < tabuleiro.Length; i++)
+            {
+                if (tabuleiro[i] == ' ')
+                {
+                    tabuleiro[i] = 'O';
+
+                    if (VerificarVencedor())
+                    {
+                        return i + 1;
+                    }
+
+                    tabuleiro[i] = ' ';
+                }
+            }
+
+            do
+            {
+                posicaoComputador = new Random().Next(0, 9);
+            }
+            while (!ValidarJogada(posicaoComputador));
+
+            return posicaoComputador + 1;
+        }
+    }
+
     private static bool VerificarTabuleiroCompleto()
     {
         for (int i = 0; i < tabuleiro.Length; i++)
@@ -213,8 +306,24 @@
 
     private static void ReiniciarJogo()
     {
-        tabuleiro = new char[] { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
+        for (int i = 0; i < tabuleiro.Length; i++)
+        {
+            tabuleiro[i] = ' ';
+        }
+
         jogadorAtual = 'X';
         jogoEmAndamento = true;
+        MontagemDoTabuleiro();
+    }
+
+    private static void MontagemDoTabuleiro()
+    {
+        Console.Clear();
+        Console.WriteLine($" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} ");
+        Console.WriteLine("---+---+---");
+        Console.WriteLine($" {tabuleiro[3]} | {tabuleiro[4]} | {tabuleiro[5]} ");
+        Console.WriteLine("---+---+---");
+        Console.WriteLine($" {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]} ");
+        Console.WriteLine();
     }
 }
