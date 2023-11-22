@@ -21,16 +21,15 @@
 
     private static void Main(string[] args)
     {
-        Console.WriteLine("##### Bem-vindo(a) ao Jogo da Velha! #####");
-        Console.WriteLine();
-        Console.WriteLine("1 - Jogar contra outro jogador");
-        Console.WriteLine("2 - Jogar contra o computador");
-        Console.WriteLine("3 - Sair");
-
         char escolha = ' ';
 
         do
         {
+            Console.WriteLine("\n##### Bem-vindo(a) ao Jogo da Velha! #####");
+            Console.WriteLine("#    1 - Jogar contra outro jogador      #");
+            Console.WriteLine("#    2 - Jogar contra o computador       #");
+            Console.WriteLine("#    3 - Sair                            #");
+            Console.WriteLine("##########################################");
             Console.Write("\nEscolha uma opção (1/2/3): ");
             escolha = Console.ReadKey().KeyChar;
             Console.WriteLine();
@@ -44,10 +43,10 @@
                     PartidaContraComputador();
                     break;
                 case '3':
-                    Console.WriteLine("\nFim do jogo. Obrigado por jogar!");
+                    Console.WriteLine("\n\nFim do jogo. Obrigado por jogar!");
                     break;
                 default:
-                    Console.WriteLine("Escolha uma opção válida (1/2/3).");
+                    Console.WriteLine("\n\nEscolha uma opção válida (1/2/3).");
                     break;
             }
         }
@@ -91,7 +90,7 @@
             }
             else
             {
-                Console.Write("\nDeseja reiniciar o jogo? (S/N): ");
+                Console.Write("\n\nDeseja reiniciar o jogo? (S/N): ");
                 char resposta = char.ToUpper(Console.ReadKey().KeyChar);
                 if (resposta == 'S')
                 {
@@ -99,7 +98,7 @@
                 }
                 else
                 {
-                    Console.WriteLine("\nFim do jogo. Obrigado por jogar!");
+                    Console.WriteLine("\n\nFim do jogo. Obrigado por jogar!");
                     break;
                 }
             }
@@ -153,8 +152,7 @@
                     jogadorAtual = (jogadorAtual == 'X') ? 'O' : 'X';
                 }
             }
-
-            Console.Write("\nDeseja reiniciar o jogo? (S/N): ");
+            Console.Write("\n\nDeseja reiniciar o jogo? (S/N): ");
             char resposta = char.ToUpper(Console.ReadKey().KeyChar);
             if (resposta == 'S')
             {
@@ -162,7 +160,7 @@
             }
             else
             {
-                Console.WriteLine("\nFim do jogo. Obrigado por jogar!");
+                Console.WriteLine("\n\nFim do jogo. Obrigado por jogar!");
                 continuar = false;
             }
         }
