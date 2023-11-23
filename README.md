@@ -29,6 +29,10 @@ Repositório com listas de `exercícios` e `desafios` propostos durante a Academ
 - [Jogo da Velha - Jogador vs Jogador](https://github.com/PauloAlves8039/academia-dotnet-6/tree/master/DesafioMatriz/Academia.Dotnet.JogoDaVelha.V1)
 - [Jogo da Velha - Computador vs Jogador](https://github.com/PauloAlves8039/academia-dotnet-6/tree/master/DesafioMatriz/Academia.Dotnet.JogoDaVelha.V2)
 
+## :movie_camera: Vídeo de Demonstração
+
+[Projeto Jogo da Velha - YouTube](https://www.youtube.com/watch?v=R0AyzblBnCk)
+
 ## :white_check_mark: Decisões Técnicas
 
 1. Procurei manter uma estrutura de pastas de acordo com cada assunto abordado durantes as primeiras aulas, o objetivo é manter uma orgonização do projeto.
